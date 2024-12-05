@@ -18,6 +18,7 @@ header{
   @media(min-width: 320px) and (max-width: 460px){
     header{
       /* width: calc(100% - 30px); */
+      border: 2px solid red;
     }
   }
 
@@ -27,7 +28,7 @@ header{
 }
 
   .nav-right{
-    /* border: 2px solid white; */
+    border: 2px solid white;
     display: flex;
     width: 72rem;
     /* margin-left: 5rem; */
@@ -41,8 +42,10 @@ header{
   /* Responsiveness code */
   @media(min-width: 320px) and (max-width: 460px){
     .nav-right{
-      width: calc(100% - 30px);
-      margin: auto;
+      /* width: calc(100% - 30px); */
+      /* margin: auto; */
+      margin-left: -1rem;
+      width: 23rem;
     }
   }
 
@@ -50,27 +53,37 @@ header{
     text-decoration: none;
     color: white;
     margin-left: 1rem;
-    /* border: 2px solid white; */
+    border: 2px solid white;
 }
+
+  /* Responsiveness code */
+  @media(min-width: 320px) and (max-width: 460px){
+    .nav-right{
+      /* width: calc(100% - 30px); */
+      /* margin: auto; */
+      margin-left: -1rem;
+      width: 23rem;
+    }
+  }
 
 .nav-item >a:first-child{
   color: #e0ae7d;
 }
 
 .inner_nav_logo{
-  /* border: 2px solid white; */
-  margin-left: 6rem;
+  border: 2px solid white;
+  margin-left: 2rem;
 }
 
 .nav-left-item >a{
   text-decoration: none;
   color: white;
   margin-left: 3rem;
-  /* border: 2px solid white; */
+  border: 2px solid white;
 }
 
 .nav-left-item >span{
-  /* border: 2px solid white; */
+  border: 2px solid white;
   color: white;
   gap: 2rem;
   /* height: 10vh;
@@ -82,7 +95,7 @@ header{
 }
 
 main{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   /* padding-bottom: 3rem; */
   height: 68vh;
   width: 78.7rem;
@@ -96,7 +109,7 @@ main{
   @media(min-width: 320px) and (max-width: 460px){
     main{
       /* width: calc(100% - 30px); */
-      max-width: 399px;
+      max-width: 356px;
       height: 47vh;
       background-size: cover;
       background-position: center;
@@ -105,7 +118,7 @@ main{
   }
 
   .banner-content >h1{
-    /* border: 2px solid; */
+    /* border: 2px solid red; */
     width: 290px;
     font-size: 3.5rem;
 }
@@ -114,7 +127,8 @@ main{
   @media(min-width: 320px) and (max-width: 460px){
     .banner-content >h1{
       /* width: calc(100% - 30px); */
-      width: 400px;
+      width: 350px;
+      font-size: 47px;
       /* border: 2px solid white; */
       height: 20vh;
       /* margin: auto; */
@@ -132,9 +146,10 @@ main{
   /* Responsiveness code */
   @media(min-width: 320px) and (max-width: 460px){
     .banner-content >p{
-      /* border: 2px solid blue; */
+      border: 2px solid blue;
       font-size: 19px;
       opacity: .7;
+      width: 22rem;
     }
   }
 
@@ -152,13 +167,13 @@ main{
     .banner-content{
       /* border: 2px solid red; */
       margin-block: 1rem;
-      width: 400px;
+      width: 350px;
       height: 40vh;
     }
   }
 
   .btn-btn >button{
-    /* border: 2px solid; */
+    border: 2px solid;
     height: 8vh;
     width: 9rem;
     border-radius: 5px;
@@ -219,7 +234,7 @@ main{
       color: white;
       font-weight: bold;
       margin: auto;
-      width: 25rem;
+      width: 22rem;
     }
   }
 
@@ -256,6 +271,8 @@ main{
     .bigBox{
       display: grid;
       margin: auto;
+      width: 98%;
+      /* border: 2px solid white; */
     }
   }
 
@@ -266,6 +283,14 @@ main{
   height: 230px;
   perspective: 1000px;
 }
+
+  /* Responsiveness code */
+  @media(min-width: 320px) and (max-width: 460px){
+    .box1-card{
+      /* border: 2px solid white; */
+      margin-left: -1rem;
+    }
+  }
 
 .box1-card-inner {
   position: relative;
@@ -313,6 +338,14 @@ main{
   perspective: 1000px;
 }
 
+  /* Responsiveness code */
+  @media(min-width: 320px) and (max-width: 460px){
+    .box2-card{
+      /* border: 2px solid white; */
+      margin-left: -1rem;
+    }
+  }
+
 .box2-card-inner {
   position: relative;
   width: 100%;
@@ -358,6 +391,14 @@ main{
     height: 230px;
     perspective: 1000px;
   }
+
+    /* Responsiveness code */
+    @media(min-width: 320px) and (max-width: 460px){
+      .box3-card{
+        /* border: 2px solid white; */
+        margin-left: -1rem;
+      }
+    }
   
   .box3-card-inner {
     position: relative;
@@ -1621,7 +1662,6 @@ font-size: 12px;
       @media(min-width: 320px) and (max-width: 460px){
         .testimonial-item >span{
           /* border:2px solid white; */
-          display: ;
         }
       }
 
@@ -2060,7 +2100,6 @@ font-size: 12px;
   .video{
     /* border: 2px solid red; */
     width: 20rem;
-    margin-left: ;
   }
 
      /* Responsiveness code */
