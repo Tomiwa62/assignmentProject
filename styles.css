@@ -1749,14 +1749,14 @@ font-size: 12px;
               @media(min-width: 320px) and (max-width: 460px){
                 .inner_booking_box{
                   /* border: 2px solid red; */
-                  margin-top: 2rem;
+                  margin-top: 5rem;
                 }
               }
 
         .inner_booking_box >i{
           color: white;
           margin-left: -2rem;
-          opacity: -2;
+          opacity: .5;
         }
 
         .inner_booking_box>input{
