@@ -984,7 +984,7 @@ font-size: 12px;
 }
 
 .popular_product{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   
 }
 
@@ -1092,21 +1092,22 @@ font-size: 12px;
 }
 
 .Popular_box{
-  /* width: 100%; */
+  width: 100%;
   height: 300px;
   background-color: black;
   /* border: 2px solid white; */
   /* margin-top: 20rem; */
   display: flex;
-  gap:3rem rem;
+  /* gap:3rem; */
   /* justify-content: space-between; */
 }
 
   /* Responsiveness code */
   @media(min-width: 320px) and (max-width: 460px){
     .Popular_box{
-      /* display: grid; */
-      margin: auto;
+      display: grid;
+      margin-left: 4rem;
+      width: 98%;
     }
   }
 
@@ -1117,6 +1118,17 @@ font-size: 12px;
   height: 230px;
   perspective: 1000px;
 }
+
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .Box1-card{
+      /* border: 2px solid blue; */
+      width: 150px;
+      height: 250px;
+      margin-left: -2rem;
+      margin-block: 0.5rem;
+    }
+  }
 
 .Box1-card-inner {
   position: relative;
@@ -1151,16 +1163,41 @@ font-size: 12px;
   background-position: center;
 }
 
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .Box1-card-front{
+      /* border: 2px solid blue; */
+      width: 150px;
+      height: 250px;
+    }
+  }
+
 .Box1-card-front-content{
   /* border: 2px solid red; */
   margin-top: 17.5rem;
   display: flex;
 }
 
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .Box1-card-front-content{
+      margin-top: 13rem;
+      height: 1rem;
+    }
+  }
+
 .Box1-card-front-content >h5{
   margin-left: 2rem;
   margin-block: 0.2rem;
 }
+
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .Box1-card-front-content >h5{
+      /* border: 2px solid red; */
+      margin-left: 1rem;
+    }
+  }
 
 .container{
   /* margin-left: 2rem; */
@@ -1171,12 +1208,31 @@ font-size: 12px;
   font-size: 7px;
 }
 
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .container{
+      /* border: 2px solid blue; */
+      width: 10rem;
+      font-size: 3px;
+    }
+  }
+
 .name{
   margin-block: 0.5rem;
   width: 10rem;
   margin: auto;
   font-size: 9px;
+  /* border: 2px solid blue; */
 }
+
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .name{
+      /* border: 2px solid blue; */
+      width: 9rem;
+      font-size: 8px;
+    }
+  }
 
 .price-list{
   margin-block: 0.5rem;
@@ -1184,6 +1240,15 @@ font-size: 12px;
   margin: auto;
   font-size: 12px;
 }
+
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .price-list{
+      /* border: 2px solid blue; */
+      width: 9rem;
+      font-size: 11px;
+    }
+  }
 
 .price-list > h5 >span{
   color: #e0ae7d;
@@ -1210,6 +1275,16 @@ font-size: 12px;
   transform: rotateY(180deg);
 }
 
+     /* Responsiveness code */
+     @media(min-width: 320px) and (max-width: 460px){
+      .Box1-card-back{
+        /* margin-top: 1rem; */
+        /* border: 2px solid blue; */
+        width: 150px;
+        height: 250px;
+      }
+    }
+
  /* box2 code */
  .Box2-card {
   background-color: transparent;
@@ -1217,6 +1292,17 @@ font-size: 12px;
   height: 230px;
   perspective: 1000px;
 }
+
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .Box2-card{
+      /* border: 2px solid blue; */
+      width: 150px;
+      height: 250px;
+      margin-left: -2rem;
+      margin-block: 0.7rem;
+    }
+  }
 
 .Box2-card-inner {
   position: relative;
@@ -1251,6 +1337,15 @@ font-size: 12px;
   background-position: center;
 }
 
+   /* Responsiveness code */
+   @media(min-width: 320px) and (max-width: 460px){
+    .Box2-card-front{
+      /* border: 2px solid blue; */
+      width: 150px;
+      height: 250px;
+    }
+  }
+
 .Box2-card-back {
   width: 250px;
   height: 330px;
@@ -1260,6 +1355,16 @@ font-size: 12px;
   /* border: 2px solid red; */
 }
 
+     /* Responsiveness code */
+     @media(min-width: 320px) and (max-width: 460px){
+      .Box2-card-back{
+        /* margin-top: 1rem; */
+        /* border: 2px solid blue; */
+        width: 150px;
+        height: 250px;
+      }
+    }
+
   /* box3 code */
   .Box3-card {
     background-color: transparent;
@@ -1267,6 +1372,16 @@ font-size: 12px;
     height: 230px;
     perspective: 1000px;
   }
+
+     /* Responsiveness code */
+     @media(min-width: 320px) and (max-width: 460px){
+      .Box3-card{
+        /* margin-top: 1rem; */
+        /* border: 2px solid blue; */
+        width: 150px;
+        height: 250px;
+      }
+    }
   
   .Box3-card-inner {
     position: relative;
@@ -1301,6 +1416,16 @@ font-size: 12px;
     background-size: cover;
     background-position: center;
   }
+
+     /* Responsiveness code */
+     @media(min-width: 320px) and (max-width: 460px){
+      .Box3-card-front{
+        margin-top: 1rem;
+        /* border: 2px solid blue; */
+        width: 150px;
+        height: 250px;
+      }
+    }
   
   .Box3-card-back {
     width: 250px;
@@ -1310,6 +1435,16 @@ font-size: 12px;
     transform: rotateY(180deg);
     /* border: 2px solid red; */
 }
+
+     /* Responsiveness code */
+     @media(min-width: 320px) and (max-width: 460px){
+      .Box3-card-back{
+        margin-top: 1rem;
+        /* border: 2px solid blue; */
+        width: 150px;
+        height: 250px;
+      }
+    }
 
 .Box{
   color: white;
@@ -1371,6 +1506,14 @@ font-size: 12px;
    /* margin-block: 3rem; */
   }
 
+    /* Responsiveness code */
+    @media(min-width: 320px) and (max-width: 460px){
+      .testimonial{
+        margin-top: 35rem;
+      }
+    }
+  
+
   .Testimonial_btn{
     /* border: 2px solid blue; */
     width: 6rem;
@@ -1402,31 +1545,66 @@ font-size: 12px;
     margin: auto;
   }
 
-  span{
-    /* border: 2px solid white; */
+    /* Responsiveness code */
+    @media(min-width: 320px) and (max-width: 460px){
+      .testimonial-item >p{
+        /* border:2px solid white; */
+        font-size: 15px;
+        width: 22rem;
+      }
+    }
+  
+
+  .testimonial-item  >span{
+    border: 2px solid white;
     height: 30px;
     color: white;
-    gap: 40rem;
+    /* gap: 40rem; */
     width: 50px;
     border-radius: 30%;
+    display: none;
   }
+
+      /* Responsiveness code */
+      @media(min-width: 320px) and (max-width: 460px){
+        .testimonial-item >span{
+          /* border:2px solid white; */
+          display: none;
+        }
+      }
 
   .testimonial-item >img{
     /* border:2px solid white; */
     margin: auto;
     height: 30px;
-    margin-left: 30rem;
+    margin-left: 18.5rem;
     margin-block: 2rem;
   }
+
+      /* Responsiveness code */
+      @media(min-width: 320px) and (max-width: 460px){
+        .testimonial-item >img{
+          /* border:2px solid white; */
+          margin-left: 9.5rem;
+        }
+      }
 
   .testimonial-item >h4{
     color: white;
     /* border:2px solid white; */
     width: 10rem;
     margin-block: 0.5rem;
-    margin-left: 28.5rem;
+    margin-left: 16.5rem;
     /* margin: auto; */
   }
+
+      /* Responsiveness code */
+      @media(min-width: 320px) and (max-width: 460px){
+        .testimonial-item >h4{
+          /* border:2px solid white; */
+          margin-left: 7.5rem;
+        }
+      }
 
   .T-img{
     background-color: transparent;
@@ -1442,16 +1620,74 @@ font-size: 12px;
     background-position: center;
   }
 
+      /* Responsiveness code */
+      @media(min-width: 320px) and (max-width: 460px){
+        .T-img{
+          /* border:2px solid white; */
+          margin-top: 1rem;
+        }
+      }
+
   .testimonial-item >h6{
     color: #e0ae7d;
     /* border:2px solid white; */
     width: 10rem;
-    margin-left: 29rem;
+    margin-left: 17rem;
     /* margin: auto; */
   }
 
+        /* Responsiveness code */
+        @media(min-width: 320px) and (max-width: 460px){
+          .testimonial-item >h6{
+            /* border:2px solid white; */
+            margin-left: 8rem;
+          }
+        }
+
+        .booking{
+          border: 2px solid red;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .booking_img{
+          border: 2px solid blue;
+          height: 35vh;
+          width: 19rem;
+          background-image: url(./image/map.jpg);
+          background-size: cover;
+          background-position: right;
+        }
+
+        .booking_content{
+          border: 2px solid goldenrod;
+          width: 19rem;
+          height: 35vh;
+        }
+
+        .booking_box{
+          border: 2px solid goldenrod;
+          width: 100%;
+          /* border-radius: 20px; */
+          margin-bottom: 0.5rem;
+          margin-left: 2rem;
+          border: none;
+        }
+
+        .inner_booking_box{
+          width: 30rem;
+        }
+
+        .inner_booking_box>input{
+          width: 45%;
+          padding: .6rem 1rem;
+          border-radius: 5px;
+          margin-top: -3rem;
+         }
+
   .video{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 20rem;
     margin-left: ;
   }
