@@ -1755,6 +1755,8 @@ font-size: 12px;
 
         .inner_booking_box >i{
           color: white;
+          margin-left: -2rem;
+          opacity: -2;
         }
 
         .inner_booking_box>input{
