@@ -1739,6 +1739,157 @@ font-size: 12px;
           /* margin-block: 1rem; */
          }
 
+  /* popular place code */
+.Blog{
+  /* border: 2px solid red; */
+  margin-block: 2rem;
+  /* background-color: red; */
+  /* display: flex; */
+  align-items: center;
+  /* gap: 26rem; */
+}
+
+.BTN-1{
+  /* border: 2px solid red; */
+  margin-left: 27rem;
+}
+
+.BTN-1 >button{
+width: 8rem;
+height: 1.3rem;background-color: #e0ae7d;
+border: none;
+border-radius: 3px;
+font-size: 8px;
+}
+
+.Blog >h1{
+  color: white;
+  margin-left: 24rem;
+  font-size: 33px;
+}
+
+.Blogbox{
+  border: 2px solid red;
+  width: 900px;
+  height: 250px;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog_wrapper{
+  width: 270px;
+  height: 250px;
+  border: 2px solid blue;
+  border-radius: 12px;
+  background-color: rgb(23 210 233);
+}
+
+.blog-boxOne{
+  border: 2px solid red;
+  height: 200px;
+  width: 250px;
+  margin: .4rem auto;
+  border-radius: 15px;
+  background-image: url(./image/skys.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.blog-boxTwo{
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 250px;
+  margin: .4rem auto;
+  border-radius: 15px;
+  background-image: url(./image/Beach\ side.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.blog-boxThree{
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 250px;
+  margin: .4rem auto;
+  border-radius: 15px;
+  background-image: url(./image/Mountain.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Red > h5{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.Red >h5 >span{
+  /* border: 2px solid; */
+  display: flex;
+  /* justify-content: space-between; */
+  color: #ee4f0e;
+}
+
+.Red >h6{
+  /* border: 2px solid; */
+  display: flex;
+  margin-left: 1rem;
+  color: #75defb;
+}
+
+.Red >h6 >span{
+  border: 2px solid;
+  color: black;
+}
+.Green > h5{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.Green >h5 >span{
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  color: #ee4f0e;
+}
+
+.Green >h6{
+  /* border: 2px solid; */
+  display: flex;
+  margin-left: 1.5rem;
+  color: #75defb;
+}
+
+.Green >h6 >span{
+  /* border: 2px solid; */
+  color: black;
+}
+.Gold > h5{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.Gold >h5 >span{
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  color: #ee4f0e;
+}
+
+.Gold >h6{
+  /* border: 2px solid; */
+  display: flex;
+  margin-left: 1.5rem;
+  color: #75defb;
+}
+
+.Gold >h6 >span{
+  border: 2px solid red;
+  color: black;
+}
+
+
   .video{
     /* border: 2px solid red; */
     width: 20rem;
