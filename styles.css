@@ -18,7 +18,7 @@ header{
   @media(min-width: 320px) and (max-width: 460px){
     header{
       /* width: calc(100% - 30px); */
-      border: 2px solid red;
+      /* border: 2px solid red; */
     }
   }
 
@@ -28,7 +28,7 @@ header{
 }
 
   .nav-right{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     width: 72rem;
     /* margin-left: 5rem; */
@@ -53,7 +53,7 @@ header{
     text-decoration: none;
     color: white;
     margin-left: 1rem;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
   /* Responsiveness code */
@@ -71,7 +71,7 @@ header{
 }
 
 .inner_nav_logo{
-  border: 2px solid white;
+  /* border: 2px solid white; */
   margin-left: 2rem;
 }
 
@@ -79,11 +79,11 @@ header{
   text-decoration: none;
   color: white;
   margin-left: 3rem;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 .nav-left-item >span{
-  border: 2px solid white;
+  /* border: 2px solid white; */
   color: white;
   gap: 2rem;
   /* height: 10vh;
@@ -95,7 +95,7 @@ header{
 }
 
 main{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* padding-bottom: 3rem; */
   height: 68vh;
   width: 78.7rem;
@@ -146,7 +146,7 @@ main{
   /* Responsiveness code */
   @media(min-width: 320px) and (max-width: 460px){
     .banner-content >p{
-      border: 2px solid blue;
+      /* border: 2px solid blue; */
       font-size: 19px;
       opacity: .7;
       width: 22rem;
@@ -173,7 +173,7 @@ main{
   }
 
   .btn-btn >button{
-    border: 2px solid;
+    /* border: 2px solid; */
     height: 8vh;
     width: 9rem;
     border-radius: 5px;
@@ -1915,6 +1915,8 @@ font-size: 12px;
 .Blog_top >button{
   /* border: 2px solid red; */
   margin-left: 27rem;
+  border: none;
+  background-color: #e0ae7d;
 }
 
               /* Responsiveness code */
@@ -2097,9 +2099,9 @@ font-size: 12px;
 }
 
 
-  .video{
+  .vidz >video{
     /* border: 2px solid red; */
-    width: 20rem;
+    margin-left: 20rem;
   }
 
      /* Responsiveness code */
